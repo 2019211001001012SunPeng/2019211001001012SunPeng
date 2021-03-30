@@ -9,9 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55c13126-5cc4-4092-bba6-737c9302b9aa" name="Default Changelist" comment="HW-Week 2 Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="55c13126-5cc4-4092-bba6-737c9302b9aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_8_2_1_jre8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/2019211001001012_SunPeng_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/2019211001001012_SunPeng_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019211001001012-SunPeng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211001001012-SunPeng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
@@ -46,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -56,17 +60,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.63" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.63" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="2019211001001012-SunPeng:war exploded">
@@ -151,6 +144,11 @@
       <workItem from="1615904946453" duration="1002000" />
       <workItem from="1616332655314" duration="10050000" />
       <workItem from="1616417468390" duration="1225000" />
+      <workItem from="1616494542627" duration="326000" />
+      <workItem from="1616567402763" duration="1078000" />
+      <workItem from="1616825510557" duration="688000" />
+      <workItem from="1616826270089" duration="7606000" />
+      <workItem from="1617090829305" duration="9165000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615816711598</created>
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615819237325</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW-Week 3 Commit">
+      <created>1616494650873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616494650873</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +219,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW-Week 2 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 2 Commit" />
+    <MESSAGE value="HW-Week 3 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 3 Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2019211001001012_SunPeng$Tomcat_8_5_63.ic" NAME="Tomcat 8.5.63 Coverage Results" MODIFIED="1616341771518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
