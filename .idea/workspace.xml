@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="55c13126-5cc4-4092-bba6-737c9302b9aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week3/demo/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week3/demo/RegisterServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
@@ -23,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,7 +158,7 @@
       <workItem from="1616826270089" duration="7606000" />
       <workItem from="1617090829305" duration="10998000" />
       <workItem from="1617117024069" duration="656000" />
-      <workItem from="1617168805214" duration="4821000" />
+      <workItem from="1617168805214" duration="6613000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615816711598</created>
@@ -231,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617114760325</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HW-Week 4 Commit">
+      <created>1617173979008</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617173979008</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HW-Week 4 Commit">
+      <created>1617174053241</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617174053241</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
