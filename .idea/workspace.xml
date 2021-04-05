@@ -12,6 +12,14 @@
     <list default="true" id="55c13126-5cc4-4092-bba6-737c9302b9aa" name="Default Changelist" comment="HW-Week 4 Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week3/demo/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week3/demo/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week3/demo/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SunPeng/week3/demo/RegisterServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,14 +64,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\23575\IdeaProjects\2019211001001012-SunPeng\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,7 +175,8 @@
       <workItem from="1617117024069" duration="656000" />
       <workItem from="1617168805214" duration="7966000" />
       <workItem from="1617177196552" duration="152000" />
-      <workItem from="1617505309539" duration="992000" />
+      <workItem from="1617505309539" duration="3598000" />
+      <workItem from="1617590147502" duration="4257000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615816711598</created>
@@ -259,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617177336803</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HW-Week 4 Commit">
+      <created>1617506360849</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617506360849</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

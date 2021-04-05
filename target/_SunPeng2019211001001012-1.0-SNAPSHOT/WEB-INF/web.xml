@@ -21,7 +21,10 @@
         <servlet-name>ConfigDemoServlet</servlet-name>
         <servlet-class>com.SunPeng.week4.demo.ConfigDemoServlet</servlet-class>
     </servlet>
-
+    <servlet>
+        <servlet-name>RegisterServlet1</servlet-name>
+        <servlet-class>com.SunPeng.week4.demo.RegisterServlet1</servlet-class>
+    </servlet>
 
 
     <servlet-mapping>
