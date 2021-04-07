@@ -12,6 +12,7 @@ import java.sql.*;
 
 @WebServlet(urlPatterns = "/register")
 
+
 public class RegisterServlet1 extends HttpServlet {
     Connection con = null;
 
