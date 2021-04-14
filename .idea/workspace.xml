@@ -10,11 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55c13126-5cc4-4092-bba6-737c9302b9aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019211001001012-SunPeng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211001001012-SunPeng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week3/demo/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week3/demo/RegisterServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week4/demo/RegisterServlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week4/demo/RegisterServlet1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyJsp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week5/demo/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week5/demo/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week4/demo/RegisterServlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week4/demo/RegisterServlet1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week2/demo/HelloWorldServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week2/demo/exercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week3/demo/LifeCycleServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week3/demo/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week3/demo/exercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week4/demo/ConfigDemoServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week4/demo/JDBCDemoServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week4/demo/RegisterServlet1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/_SunPeng2019211001001012/HelloServlet.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +192,10 @@
       <workItem from="1617177196552" duration="152000" />
       <workItem from="1617505309539" duration="3598000" />
       <workItem from="1617590147502" duration="4577000" />
-      <workItem from="1617763363803" duration="988000" />
+      <workItem from="1617763363803" duration="1028000" />
+      <workItem from="1618227022515" duration="273000" />
+      <workItem from="1618227315493" duration="4049000" />
+      <workItem from="1618366764874" duration="4425000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615816711598</created>
@@ -292,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617595195427</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="HW-Week 5 Commit">
+      <created>1617764387759</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617764387759</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +338,8 @@
     <MESSAGE value="HW-Week 2 Commit" />
     <MESSAGE value="HW-Week 3 Commit" />
     <MESSAGE value="HW-Week 4 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 4 Commit" />
+    <MESSAGE value="HW-Week 5 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 5 Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

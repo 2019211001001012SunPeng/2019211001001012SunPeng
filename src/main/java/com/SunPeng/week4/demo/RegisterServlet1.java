@@ -77,6 +77,12 @@ public class RegisterServlet1 extends HttpServlet {
                 out.println("</tr>");
             }
             out.println("</table>");
+            request.setAttribute("rename",re);//name - string, value - any type  (objecct)
+            request.getRequestDispatcher("userList.jsp").forward(request,response);
+            //at this point  request given to userList.jsp
+            //url doesnot change
+            //no more here
+            System.out.println("i am in RegisterServlet-->doPost()--> after forward()");//no see this line
         } catch (SQLException e) {
             e.printStackTrace();
         }
