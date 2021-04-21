@@ -7,27 +7,33 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="header.jsp"%>>
+<%@ page import="java.sql.ResultSet" %>
 <h1>User List</h1>
 <table border=1>
     <tr>
         <td>Id</td><td>password</td><td>Email</td><td>Gender</td><td>
     </tr>
+        <%
+        //get re from request Attribute
+        ResultSet re= (ResultSet) request.getAttribute("rename");
+        if (re==null){
+    %>
     <tr>
         <td>No Data!!!</td>
     </tr>
-    <%
-        /*while(rs.next()){
-        //get one by one
-         out.println("<tr>");
-
-                out.println("<td>"+rs.getString("username")+"</td>");
-                out.println("<td>"+rs.getString("password")+"</td>");
-                out.println("<td>"+rs.getString("email")+"</td>");
-                out.println("<td>"+rs.getString("gender")+"</td>");
-                out.println("<td>"+rs.getString("birthdate")+"</td>");
-                out.println("</tr>");
+    <%}else{
+        while (re.next()) {
+            out.println("<tr>");
+            out.println("<td>"+re.getInt("id")+"</td>");
+            out.println("<td>"+re.getString("username")+"</td>");
+            out.println("<td>"+re.getString("password")+"</td>");
+            out.println("<td>"+re.getString("email")+"</td>");
+            out.println("<td>"+re.getString("gender")+"</td>");
+            out.println("<td>"+re.getString("birthdate")+"</td>");
+            out.println("</tr>");
         }
-         */
-         //we will get data in next demo - 6.LiveDemo #3
-        %>
+        out.println("</table>");
+    }
+    %>
+</table>
 <%@include file="footer.jsp"%>>

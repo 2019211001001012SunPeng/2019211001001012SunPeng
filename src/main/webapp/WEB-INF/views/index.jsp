@@ -1,7 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@include file="header.jsp"%>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
 <h2>welcome to My Online Shop Home Page.</h2><br>
 <form method="get" target="_blank" action="SearchServlet">
     <!-- <url-pattern>/search</url-pattern> -->

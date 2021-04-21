@@ -10,25 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55c13126-5cc4-4092-bba6-737c9302b9aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019211001001012-SunPeng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211001001012-SunPeng.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week3/demo/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week3/demo/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week4/demo/RegisterServlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week4/demo/RegisterServlet1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week5/demo/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week5/demo/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/MyJsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/MyJsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/userinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userinfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week3/demo/RegisterServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week4/demo/RegisterServlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week4/demo/RegisterServlet1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week2/demo/HelloWorldServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week2/demo/exercise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week3/demo/LifeCycleServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week3/demo/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week3/demo/exercise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week4/demo/ConfigDemoServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week4/demo/JDBCDemoServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week4/demo/RegisterServlet1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/_SunPeng2019211001001012/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week5/demo/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/classes/com/SunPeng/week5/demo/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/_SunPeng2019211001001012-1.0-SNAPSHOT/userList.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\23575\IdeaProjects\2019211001001012-SunPeng\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\23575\IdeaProjects\2019211001001012-SunPeng\src\main\webapp" />
     </key>
   </component>
@@ -195,7 +193,9 @@
       <workItem from="1617763363803" duration="1028000" />
       <workItem from="1618227022515" duration="273000" />
       <workItem from="1618227315493" duration="4049000" />
-      <workItem from="1618366764874" duration="4425000" />
+      <workItem from="1618366764874" duration="4470000" />
+      <workItem from="1618920016898" duration="5486000" />
+      <workItem from="1618971054058" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615816711598</created>
@@ -316,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617764387759</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HW-Week 6 Commit">
+      <created>1618371251656</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618371251656</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +346,8 @@
     <MESSAGE value="HW-Week 3 Commit" />
     <MESSAGE value="HW-Week 4 Commit" />
     <MESSAGE value="HW-Week 5 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 5 Commit" />
+    <MESSAGE value="HW-Week 6 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 6 Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
