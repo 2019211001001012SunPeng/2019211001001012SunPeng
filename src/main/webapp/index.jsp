@@ -13,4 +13,4 @@
     </select>
     <input type="submit" value="Search">
 </form>
-<%@include file="footer.jsp"%>
+<%@include file="WEB-INF/views/footer.jsp"%>

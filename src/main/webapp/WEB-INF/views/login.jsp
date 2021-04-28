@@ -5,7 +5,7 @@
   Time: 10:53
   To change this template use File | Settings | File Templates.
 --%>
-<%@include file="header.jsp"%>
+<%@include file="../../header.jsp"%>
 <h1 style="color:black;font-feature-settings:normal;font-size: 30px">Login</h1>
 <%
     if(request.getAttribute("message")!=null){

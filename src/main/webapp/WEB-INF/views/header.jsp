@@ -1,3 +1,4 @@
+<%@ page import="com.SunPeng.model.User" %>
 <html>
 <head>
     <title>My Online Shop</title>
@@ -24,7 +25,7 @@
                             border-top-width:0px;
                             border-color:black;" align="center">
             <a style="color:white;" href="home">Home</a><!-- request come to controller - HomeServlet-->
-            - <a style="color:white;" href="login.jsp">Login</a><!-- request come to controller - loginServlet-->
+            - <a style="color:white;" href="login">Login</a><!-- request come to controller - loginServlet-->
             - <a style="color:white;" href="productList">Product</a>
             - <a style="color:white;" href="#">FAQ</a>
             - <a style="color:white;" href="#">About</a>
@@ -32,11 +33,26 @@
         </td>
     </tr>
     <tr height="25"><td align="right"><font size="18" color="blue">
-        Welcome,<font size="18" color="red"> Guest</font>
+        Welcome,
+        <%
+            //get session attribute
+            User user = (User) session.getAttribute("user");//name of attribute
+            if(session.getAttribute("user")!=null) {
+                //print username
+                out.println(user.getUsername());
+            }else {// print guest
+        %>
+        <font size="18" color="red"> Guest</font>
+        <%}//end of else%>
     </font></td> </tr>
     <tr height="20"><td align="right">
-        <br> <a href="#">Logout</a>
-        <br><a href="#">My Cart</a><br/>
+        <%
+            //if user in session -- print logout --- otherwise --- no logout
+            if (session.getAttribute("user")!=null){
+        %>
+        <br> <a href="LogoutServlet">Logout</a>
+        <%}//end of if%>
+        <br><a href="logout">My Cart</a><br/><!-- request go to controller - LogoutServlet-->
         <a href="register.jsp">Register Here</a>
     </td></tr>
 </table>

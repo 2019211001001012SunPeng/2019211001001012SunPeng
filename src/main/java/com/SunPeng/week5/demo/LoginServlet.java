@@ -2,6 +2,7 @@ package com.SunPeng.week5.demo;
 
 import com.SunPeng.dao.UserDao;
 import com.SunPeng.model.User;
+import jdk.internal.instrumentation.TypeMapping;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -38,29 +39,79 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter out = response.getWriter();
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
+        String username =request.getParameter("username");
+        String password =request.getParameter("password");
         // now move jdbc code in dao - MVC design
         //write mvc code
         //use model and dao
-        UserDao userDao = new UserDao();
+        UserDao userDao=new UserDao();
         try {
-            User user = userDao.findByUsernamePassword(con, username, password);//this methods use for login
-            if (user != null) {
+            User user=userDao.findByUsernamePassword(con,username,password);//this methods use for login
+            if(user!=null){
                 //valid
-                //set user into request
-                request.setAttribute("user", user);//get user info in jsp
-                request.getRequestDispatcher("WEB-INF/views/userinfo.jsp").forward(request, response);
-            } else {
+                //week 8 code
+                //add code for remember me
+                String rememberMe=request.getParameter("rememberMe");//1=checked, null if checked
+                if(rememberMe!=null && rememberMe.equals("1")){
+                    //want to remember me
+                    //create 3 cookies
+                    Cookie usernameCookie=new Cookie("cUsername",user.getUsername());
+                    Cookie passwordCookie=new Cookie("cPassword",user.getPassword());
+                    Cookie rememberMeCookie=new Cookie("cRememberMe",rememberMe);
+
+                    //set age of cookies
+                    usernameCookie.setMaxAge(5);// 5 sec - test --- 15 days = 60*60*24*15
+                    passwordCookie.setMaxAge(5);
+                    rememberMeCookie.setMaxAge(5);
+                    //add 3 cookies into response
+                    response.addCookie(usernameCookie);
+                    response.addCookie(passwordCookie);
+                    response.addCookie(rememberMeCookie);
+
+
+                }
+                //create a session
+                HttpSession session=request.getSession();//create a new session if session doesnot exist - otherwise  return existing session
+                //check session id
+                System.out.println("session id-->"+session.getId());//session id
+                //set time for session
+                session.setMaxInactiveInterval(10);//for 5 10 section if request not come in - tomcat kill session - set 60*60=1h
+              /*  //week 8 code - demo #1- use cookie for session
+                //create cookie
+                //step 1 :create an object of cookie class
+                Cookie c=new Cookie("sessionid",""+user.getId());//sessionid = user- id
+                //step 2 :set age of cookie
+                c.setMaxAge(10*60);//in sec- 10 min - 7 days - 7*24*60*60
+                //step 3 :add cookie into response
+                response.addCookie(c);*/
+                //week 8 0- change request to session - so we can get session attribute in many jsp page - login.jsp and header.jsp
+                session.setAttribute("user",user);//set user info in session
+                request.setAttribute("user",user);
+                request.getRequestDispatcher("WEB-INF/views/userinfo.jsp").forward(request,response);
+            }else{
                 //invalid
-                request.setAttribute("message", "Username or Password Error!!!");
-                request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request, response);
+                request.setAttribute("message","Username or Password Error!!!");
+                request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request,response);
             }
             //forward -JSP
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-     /*String sql="Select * from usertable where username=? and password=?";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*String sql="Select * from usertable where username=? and password=?";
         PreparedStatement ps = null;
         try {
             ps = con.prepareStatement(sql);

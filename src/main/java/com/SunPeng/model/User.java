@@ -1,20 +1,19 @@
 package com.SunPeng.model;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class User {
-    private int id;
-    private String username;
-    private String password;
-    private String email;
-    private String gender;
-    private java.util.Date birthDate;
+    private int id ;
+    private  String username;
+    private  String password;
+    private  String email;
+    private  String gender;
+    private  Date birthDate;
     //constructor
-
     public User() {
+
     }
     //full
-
     public User(int id, String username, String password, String email, String gender, Date birthDate) {
         this.id = id;
         this.username = username;
@@ -24,6 +23,7 @@ public class User {
         this.birthDate = birthDate;
     }
     //setter and setter
+
 
     public int getId() {
         return id;
@@ -72,7 +72,7 @@ public class User {
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
-    //to String
+    //toString
 
     @Override
     public String toString() {
@@ -85,4 +85,5 @@ public class User {
                 ", birthDate=" + birthDate +
                 '}';
     }
+
 }
