@@ -2,7 +2,6 @@ package com.SunPeng.week5.demo;
 
 import com.SunPeng.dao.UserDao;
 import com.SunPeng.model.User;
-import jdk.internal.instrumentation.TypeMapping;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
