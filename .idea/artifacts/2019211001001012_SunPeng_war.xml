@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="_SunPeng2019211001001012-1.0-SNAPSHOT.war">
+    <root id="archive" name="SunPeng2019211001001012-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="2019211001001012-SunPeng:war exploded" />
     </root>
   </artifact>
