@@ -9,16 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55c13126-5cc4-4092-bba6-737c9302b9aa" name="Default Changelist" comment="HW-Week 12 Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SunPeng/week5/demo/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SunPeng/week5/demo/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/controller/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SunPeng/controller/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SunPeng/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SunPeng/week5/demo/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SunPeng/week5/demo/LoginServlet.class" afterDir="false" />
-    </list>
+    <list default="true" id="55c13126-5cc4-4092-bba6-737c9302b9aa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +194,7 @@
       <workItem from="1620736473329" duration="2560000" />
       <workItem from="1621388256033" duration="1525000" />
       <workItem from="1621992377083" duration="2653000" />
-      <workItem from="1622597971178" duration="906000" />
+      <workItem from="1622597971178" duration="1242000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615816711598</created>
@@ -366,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621995026425</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="HW-Week 13 Commit">
+      <created>1622599142248</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1622599142248</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +393,8 @@
     <MESSAGE value="HW-Week 9 Commit" />
     <MESSAGE value="HW-Week 11 Commit" />
     <MESSAGE value="HW-Week 12 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 12 Commit" />
+    <MESSAGE value="HW-Week 13 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 13 Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
