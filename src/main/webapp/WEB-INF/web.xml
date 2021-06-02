@@ -59,7 +59,7 @@
     <servlet-mapping>
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/register</url-pattern>
-        <!-/life ==LifeCycleServlet== com.dabing.week3.demo.LifeCycleServlet-->
+        <!-/life ==LifeCycleServlet== com.SunPeng.week3.demo.LifeCycleServlet-->
     <!-- </servlet-mapping>
      <!- x=5,a= x so we can say a=5-->
     <!--<servlet>
@@ -83,14 +83,14 @@
         <param-value>123456789</param-value>
     </context-param>
 
-    <servlet>
-        <servlet-name>LifeCircleServlet</servlet-name>
-        <servlet-class>com.SunPeng.week3.demo.LifeCycleServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>LifeCircleServlet</servlet-name>
-        <url-pattern>/life</url-pattern>
-    </servlet-mapping>
+<!--    <servlet>-->
+<!--        <servlet-name>LifeCircleServlet</servlet-name>-->
+<!--        <servlet-class>com.SunPeng.week3.demo.LifeCycleServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>LifeCircleServlet</servlet-name>-->
+<!--        <url-pattern>/life</url-pattern>-->
+<!--    </servlet-mapping>-->
 
     <welcome-file-list>
         <welcome-file>home</welcome-file><!-- when you run app - first  request send to home ... HomeServlet -->
@@ -101,33 +101,33 @@
 
     <!-- chain of filters -->
     <!-- 1st -->
-    <filter>
-        <filter-name>AuthFilter</filter-name>
-        <filter-class>com.SunPeng.filter.AuthFilter</filter-class>
-    </filter>
+<!--    <filter>-->
+<!--        <filter-name>AuthFilter</filter-name>-->
+<!--        <filter-class>com.SunPeng.filter.AuthFilter</filter-class>-->
+<!--    </filter>-->
 
-    <filter-mapping>
-        <filter-name>AuthFilter</filter-name>
-        <url-pattern>/hello</url-pattern><!-- url of HelloServlet - this filter is only for HelloFilter-->
-    </filter-mapping>
-    <!-- 2nd -write after 1st one in web.xml-->
-    <filter>
-        <filter-name>HelloFilter</filter-name>
-        <filter-class>com.SunPeng.filter.HelloFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>HelloFilter</filter-name>
-        <url-pattern>/hello</url-pattern><!-- url of HelloServlet - this filter is only for HelloFilter-->
-    </filter-mapping>
-    <!-- 3rd one-->
-    <filter>
-        <filter-name>LoggerFilter</filter-name>
-        <filter-class>com.SunPeng.filter.LoggerFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>LoggerFilter</filter-name>
-        <url-pattern>/hello</url-pattern><!-- url of HelloServlet - this filter is only for HelloFilter-->
-    </filter-mapping>
+<!--    <filter-mapping>-->
+<!--        <filter-name>AuthFilter</filter-name>-->
+<!--        <url-pattern>/hello</url-pattern>&lt;!&ndash; url of HelloServlet - this filter is only for HelloFilter&ndash;&gt;-->
+<!--    </filter-mapping>-->
+<!--    &lt;!&ndash; 2nd -write after 1st one in web.xml&ndash;&gt;-->
+<!--    <filter>-->
+<!--        <filter-name>HelloFilter</filter-name>-->
+<!--        <filter-class>com.SunPeng.filter.HelloFilter</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>HelloFilter</filter-name>-->
+<!--        <url-pattern>/hello</url-pattern>&lt;!&ndash; url of HelloServlet - this filter is only for HelloFilter&ndash;&gt;-->
+<!--    </filter-mapping>-->
+<!--    &lt;!&ndash; 3rd one&ndash;&gt;-->
+<!--    <filter>-->
+<!--        <filter-name>LoggerFilter</filter-name>-->
+<!--        <filter-class>com.SunPeng.filter.LoggerFilter</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>LoggerFilter</filter-name>-->
+<!--        <url-pattern>/hello</url-pattern>&lt;!&ndash; url of HelloServlet - this filter is only for HelloFilter&ndash;&gt;-->
+<!--    </filter-mapping>-->
 
 
 
